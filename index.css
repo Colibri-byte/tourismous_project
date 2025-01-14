@@ -1,0 +1,157 @@
+:root {
+  --mint: #d7f9f1;
+  --cambridge: #7aa095;
+  --dark-green: #40531b;
+  --fern-green: #618b4a;
+  --sage: #afbc88;
+  --antiflash-white: #f1f1f1;
+}
+  
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--antiflash-white);
+  font-size: 16px;
+  }
+
+.main-header {
+  background-color: var(--fern-green);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--mint);
+  flex: 1 1 100%;
+}
+
+.main-nav {
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  justify-content: end;
+  padding-right: 1rem;
+}
+
+.nav-el a {
+  text-decoration: none;
+  color: var(--antiflash-white);
+}
+
+.main-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  background-image: url("./images/ricardo-gomez-angel-d-0GeId5czM-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  color: var(--antiflash-white);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.content-title {
+  font-size: 2rem;
+  color: var(--dark-green);
+  margin: 0 0 1rem;
+  padding: 0;
+  text-align: center;
+}
+
+.content-articles {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-article {
+  background-color: var(--mint);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.article-title {
+  font-size: 1.5rem;
+  color: var(--dark-green);
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.article-img {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+}
+
+.article-text {
+  color: var(--dark-green);
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer {
+  background-color: var(--fern-green);
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-text {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
